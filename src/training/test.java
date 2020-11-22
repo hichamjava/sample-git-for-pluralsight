@@ -13,4 +13,10 @@ public class test {
 
 	}
 
+	@Override
+	public String toString() {
+		return "test [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+
 }
