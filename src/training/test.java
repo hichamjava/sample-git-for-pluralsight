@@ -8,6 +8,8 @@ public class test {
 		if (s.split("\\.").length > 1) {
 			System.out.println(s.split("\\.")[0]);
 		}
+		
+		System.out.println("test");
 
 	}
 
